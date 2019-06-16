@@ -1,0 +1,23 @@
+{
+    "name": "explore-swoft/client",
+    "type": "project",
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "minbaby.zhang",
+            "email": "minbaby.zhang@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "swoole/ide-helper": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Minbaby\\SwoftClient\\": "src"
+        }
+    }
+}
