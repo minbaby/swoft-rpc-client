@@ -35,7 +35,7 @@ echo microtime(true) - $start;
 ```json
 {
     "jsonrpc": "2.0",
-    "method": "",
+    "method": "{version}::{class_name}::{method_name}",
     "params": [],
     "id": "",
     "ext": []
